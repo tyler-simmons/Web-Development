@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms Exercise</title>
+</head>
+<body>
+
+	<h1>Register</h1>
+
+	<form>
+		
+		<div>
+			<label for="firstName">First Name:</label>
+			<input id="firstName" type="text" name="First Name" placeholder="John" required="true">
+
+			<label for="lastName">Last Name:</label>
+			<input id="lastName" type="text" name="Last Name" placeholder="Smith" required="true">
+		</div>
+
+		
+		<div>
+			<label for="Male">Male</label>
+			<input id="Male" type="radio" name="Gender" value="Male">
+
+			<label for="Female">Female</label>
+			<input id="Female" type="radio" name="Gender" value="Female">
+
+			<label for="Other">Other</label>
+			<input id="Other" type="radio" name="Gender" value="Other">
+		</div>
+
+		
+		<div>
+			<label for="Email">Email:</label>
+			<input type="Email" name="Email" id="Email" required="true">
+
+			<label for="pass">Password:</label>
+			<input type="Password" name="Password" id="pass" minlength="5" maxlength="10" required="true">
+		</div>
+
+		
+		<div>
+			<label>
+				
+				Birthday
+				
+				<select name="Month" id="birth">
+					<option value="Jan">Jan</option>
+					<option value="Feb">Feb</option>
+					<option value="Mar">Mar</option>
+				</select>
+
+				<select name="Day">
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+				</select>
+
+				<select name="Year">
+					<option>2010</option>
+					<option>2011</option>
+					<option>2012</option>
+					<option>2013</option>
+					<option>2014</option>
+				</select>
+			
+			</label>
+		</div>
+
+		
+		<div>
+			<label for="agreement">I Agree to the terms and conditions</label>
+			<input type="checkbox" name="agreement" id="agreement">
+		</div>
+
+		<button>Submit</button>
+
+	</form>
+
+
+
+</body>
+</html>

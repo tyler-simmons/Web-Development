@@ -1,0 +1,8 @@
+1. html boilerplate (in sublime): type html then press tab
+2. comment shortcut (in sublime): go to the line or select it then ctrl+/
+3. Block level elements get their own line eg heading
+	a. Opposite is inline
+4. autocomplete an element (in sublime): type the tag then press tab
+5. div is a generic container (group content on a page) and it is block level
+	a. vs a span which is the same thing but it is inline
+ 

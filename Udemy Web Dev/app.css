@@ -1,0 +1,21 @@
+h1 {
+	color: rgba(50, 200, 100, 1);
+	/*border-color: purple;
+	border-width: 5px;
+	border-style: solid;*/
+
+	border: 2px solid rgb(255, 100, 0);
+}
+
+h4 {
+	background: rgb(255, 100, 0);
+}
+
+body {
+	/*background: url(https://www.publicdomainpictures.net/pictures/90000/velka/woodgrain-texture-background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;*/
+	background: pink;
+}
+
+
