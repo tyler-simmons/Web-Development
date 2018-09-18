@@ -1,0 +1,26 @@
+h1 {
+	margin: auto;
+	width: 50%;
+}
+
+tr {
+	margin: 0 auto;
+
+}
+
+.top {
+	border-bottom: 2px solid black;
+}
+
+.mid {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.bottom {
+	border-top: 2px solid black;
+}
+
+table {
+	border: 2px solid black;
+}
