@@ -1,6 +1,27 @@
 h1 {
 	width: 50%;
-	margin: 0 auto 0 auto;
-	border: 2px solid blue;
+	margin: auto;
+	/*border: 2px solid blue;*/
 	text-align: center;
+}
+
+table {
+	margin: auto;
+}
+
+td {
+	width: 100px;
+	height: 100px;
+	/*background-color: lightblue;*/
+
+}
+
+.mid {
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+}
+
+.horizontal {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 }
