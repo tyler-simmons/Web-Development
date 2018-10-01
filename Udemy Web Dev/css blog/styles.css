@@ -1,0 +1,37 @@
+/*
+* 20px border
+* border bdc3c7
+* date 3498db
+* h2 2c3e50
+* source sans pro
+* block quote left border
+* all caps date wit letter spacing
+* between posts is an <hr>
+*/
+
+body {
+	border: 20px solid #bdc3c7;
+	font-family: Source Sans Pro;
+	width: 60%;
+	margin: auto;
+	margin-top: 1.5%;
+}
+
+p {
+	font-weight: 600;
+}
+
+.date {
+	color: #3498db;
+
+}
+
+.quote {
+	border-left: 5px solid #bdc3c7;
+	padding-left: 5px;
+}
+
+div {
+	width: 90%;
+	margin: auto;
+}
